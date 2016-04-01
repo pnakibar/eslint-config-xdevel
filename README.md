@@ -41,8 +41,8 @@ Em seu arquivo `.eslintrc`:
 }
 ```
 ### *Overrides*
-Você pode facilmente sobrescrever regras em seu próprio arquivo `.eslintrc`. Por exemplo, para usar identação
-com 2 espaços ao invés de 2, use:
+Você pode facilmente sobrescrever regras de `eslint-config-prodest` em seu próprio arquivo `.eslintrc`. Por exemplo, para usar identação
+com 2 espaços ao invés de 4(padrão), use:
 
 ```json
 {
