@@ -1,4 +1,6 @@
+
 # eslint-config-prodest
+[![Build Status](https://travis-ci.org/prodest/eslint-config-prodest.svg?branch=master)](https://travis-ci.org/prodest/eslint-config-prodest)
 >Configurações [ESLint](http://eslint.org/) para projetos do [PRODEST](http://www.prodest.es.gov.br)
 
 Garante que o código adere ao *coding style* da PRODEST realizando o *linting*
