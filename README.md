@@ -28,7 +28,7 @@ do PRODEST. Dessa maneira, o *coding style* PRODEST pode ser adicionado a qualqu
 
 ## Instalação
 ```
-npm install --save-dev eslint-config-prodest
+npm install --save-dev @prodest/eslint-config-prodest
 ```
 
 Observação: use a versão `^1.0.0` para o ESLint versão `^1.x.x`.
