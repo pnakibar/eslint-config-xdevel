@@ -28,7 +28,7 @@ do [PRODEST](http://www.prodest.es.gov.br). Dessa maneira, o *coding style* [PRO
 
 ## Instalação
 ```
-npm install --save-dev @prodest/eslint-config-prodest
+npm install --save-dev eslint-config-prodest
 ```
 
 Observação: use a versão `^1.0.0` para o ESLint versão `^1.x.x`.
