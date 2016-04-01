@@ -1,6 +1,6 @@
 {
   "name": "@prodest/eslint-config-prodest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configurações ESLint para projetos do PRODEST",
   "main": "index.js",
   "scripts": {
