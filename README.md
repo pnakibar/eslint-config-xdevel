@@ -24,7 +24,7 @@ function idiomatic( arg ) {
 ```
 
 `eslint-config-prodest` também customiza algumas poucas regras de 'linting' do idiomatic, usadas em projetos
-do PRODEST. Dessa maneira, o *coding style* PRODEST pode ser adicionado a qualquer projeto facilmente.
+do [PRODEST](http://www.prodest.es.gov.br). Dessa maneira, o *coding style* [PRODEST](http://www.prodest.es.gov.br) pode ser adicionado a qualquer projeto facilmente.
 
 ## Instalação
 ```
@@ -61,3 +61,4 @@ em seu arquivo `.eslintrc`:
   "extends": "prodest/es5"
 }
 ```
+
