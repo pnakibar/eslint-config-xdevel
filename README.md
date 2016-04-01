@@ -48,10 +48,8 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
 ```json
 "rules": {
 
-    /************************************************************************************
-     * Regras herdadas do estilo *idiomatic*
-     ***********************************************************************************/
-
+    // Regras herdadas do estilo *idiomatic*
+     
     "array-bracket-spacing": [2, "always"],
     "arrow-spacing": [2, { "before": true, "after": true }],
     "block-spacing": [2, "always"],
@@ -83,7 +81,7 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
     "space-in-parens": [2, "always"],
     "space-infix-ops": [2],
     "space-unary-ops": [2, { "words": true, "nonwords": false }],
-    "vars-on-top": [2]
+    "vars-on-top": [2],
     "comma-dangle": [2, "never"],
     "complexity": [1, 10],
     "dot-notation": [2, { "allowKeywords": false }],
@@ -155,14 +153,11 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
     "no-with": [2],
     "radix": [2],
     "use-isnan": [2],
-    "valid-typeof": [2]
+    "valid-typeof": [2],
     
 
 
-    /************************************************************************************
-     * Customizações que eslint-config-prodest aplica (sobrescreve)
-     * às regras  do estilo *idiomatic*
-     ***********************************************************************************/
+    //Customizações que eslint-config-prodest aplica (sobrescreve) às regras do estilo *idiomatic*
 
     "valid-jsdoc": 1,
     "dot-notation": [2, {
