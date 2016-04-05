@@ -169,7 +169,7 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
     "indent": [1, 4],
     "no-inline-comments": 0,
     "func-names": 0,
-    "semi": [1, "always"],
+    "semi": [2, "always"],
     "one-var": [2, {
         "uninitialized": "never",
         "initialized": "never"
