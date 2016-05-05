@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-prodest",
+  "name": "eslint-config-xdevel",
   "version": "1.0.12",
-  "description": "Configurações ESLint para projetos do PRODEST",
+  "description": "Configurações ESLint para projetos da xDevel",
   "main": "index.js",
   "scripts": {
     "test": ""
@@ -14,14 +14,14 @@
     "eslint",
     "eslintconfig",
     "idiomatic",
-    "prodest"
+    "xdevel"
   ],
   "author": "Daniel Hoisel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/prodest/eslint-config-prodest/issues"
+    "url": "https://github.com/xdevelsistemas/eslint-config-xdevel/issues"
   },
-  "homepage": "https://github.com/prodest/eslint-config-prodest#readme",
+  "homepage": "https://github.com/xdevelsistemas/eslint-config-xdevel#readme",
   "dependencies": {
     "eslint": "^2.5.3",
     "eslint-config-idiomatic": "^2.0.0"
