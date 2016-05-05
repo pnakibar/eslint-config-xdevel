@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['idiomatic', 'prodest/core'],
+    extends: ['idiomatic', 'xdevel/core'],
     "parserOptions": {
         "sourceType": "module"
     }
