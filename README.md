@@ -159,6 +159,8 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
 
     //Customizações que eslint-config-xdevel aplica (sobrescreve) às regras do estilo *idiomatic*
 
+    "indent": [1, 2],
+    "computed-property-spacing": [0] 
     "valid-jsdoc": 1,
     "dot-notation": [2, {
         "allowKeywords": true
