@@ -1,13 +1,13 @@
 
-# eslint-config-prodest
-[![Build Status](https://travis-ci.org/prodest/eslint-config-prodest.svg?branch=master)](https://travis-ci.org/prodest/eslint-config-prodest)
->Configurações [ESLint](http://eslint.org/) para projetos do [PRODEST](http://www.prodest.es.gov.br)
+# eslint-config-xdevel
+[![Build Status](https://travis-ci.org/xdevelsistemas/eslint-config-xdevel.svg?branch=master)](https://travis-ci.org/xdevelsistemas/eslint-config-xdevel)
+>Configurações [ESLint](http://eslint.org/) para projetos do [xDevel](http://www.xdevel.com.br) baseados no modelo da [Prodest](http://www.prodest.es.gov.br)
 
-Garante que o código adere ao *coding style* da PRODEST realizando o *linting*
+Garante que o código adere ao *coding style* da xDevel realizando o *linting*
 do código usando [ESLint](http://eslint.org/).
 
 ## Coding Style: [eslint-config-idiomatic](https://www.npmjs.com/package/eslint-config-idiomatic) + customizações
-`eslint-config-prodest` é amplamente baseado nas regras de estilo de código [idiomatic js](https://github.com/rwaldron/idiomatic.js/), definidas
+`eslint-config-xdevel` é amplamente baseado nas regras de estilo de código [idiomatic js](https://github.com/rwaldron/idiomatic.js/), definidas
 como regras ESLint no arquivo de configuração [eslint-config-idiomatic](https://www.npmjs.com/package/eslint-config-idiomatic).
 
 
@@ -27,26 +27,26 @@ function idiomatic( arg ) {
 }
 ```
 
-O que arquivo de configuração (`eslint-config-prodest`) faz é:
+O que arquivo de configuração (`eslint-config-xdevel`) faz é:
 
  - extende [eslint-config-idiomatic](https://www.npmjs.com/package/eslint-config-idiomatic) customizando(sobrescrevendo) algumas poucas regras. 
 
 
 ## Instalação
 ```
-npm i --save-dev eslint-config-prodest
+npm i --save-dev eslint-config-xdevel
 ```
 
 ## Uso
 Em seu arquivo `.eslintrc`:
 ```json
 {
-  "extends": "prodest"
+  "extends": "xdevel"
 }
 ```
 
 ## Regras
-Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint-config-prodest`:
+Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint-config-xdevel`:
 ```json
 "rules": {
 
@@ -58,12 +58,10 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
     "brace-style": [2, "1tbs", { "allowSingleLine": false }],
     "comma-spacing": [2, {"before": false, "after": true}],
     "comma-style": [2, "last"],
-    "computed-property-spacing": [2, "always"],
     "curly": [2, "all"],
     "dot-location": [2, "property"],
     "eol-last": [2],
     "func-names": [1],
-    "indent": [2, 2],
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": [2],
     "linebreak-style": [2],
@@ -159,7 +157,7 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
     
 
 
-    //Customizações que eslint-config-prodest aplica (sobrescreve) às regras do estilo *idiomatic*
+    //Customizações que eslint-config-xdevel aplica (sobrescreve) às regras do estilo *idiomatic*
 
     "valid-jsdoc": 1,
     "dot-notation": [2, {
@@ -183,12 +181,12 @@ Segue a seguir a listagem com todas as regras do ESLint configuradas por `eslint
 
 
 ### *Overrides*
-Você pode facilmente sobrescrever regras de `eslint-config-prodest` em seu próprio arquivo `.eslintrc`. Por exemplo, para usar identação
+Você pode facilmente sobrescrever regras de `eslint-config-xdevel` em seu próprio arquivo `.eslintrc`. Por exemplo, para usar identação
 com 2 espaços ao invés de 4(padrão), use:
 
 ```json
 {
-  "extends": "prodest",
+  "extends": "xdevel",
   "rules": {
     "indent": [2, 2]
   }
@@ -196,11 +194,11 @@ com 2 espaços ao invés de 4(padrão), use:
 ```
 
 ### ES5
-`eslint-config-prodest` é ES6+ por padrão. Para usar ES5, extenda `prodest/es5`
+`eslint-config-xdevel` é ES6+ por padrão. Para usar ES5, extenda `xdevel/es5`
 em seu arquivo `.eslintrc`:
 ```json
 {
-  "extends": "prodest/es5"
+  "extends": "xdevel/es5"
 }
 ```
 
