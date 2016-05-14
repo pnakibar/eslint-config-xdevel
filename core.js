@@ -7,7 +7,6 @@ module.exports = {
         /*************************************
          * Estendendo idiomatic style
         **************************************/
-        "indent": [1, 2],
         "computed-property-spacing": [0] ,
         'require-jsdoc': 1,
         'valid-jsdoc': 1,
