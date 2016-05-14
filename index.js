@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['idiomatic', 'xdevel/core'],
+    extends: ['airbnb', 'xdevel/core'],
     "parserOptions": {
         "sourceType": "module"
     }
